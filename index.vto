@@ -1,0 +1,11 @@
+---
+title:  Hello world
+---
+
+<hr>
+{{ for post of search.pages('type=posts', "date=desc") }}
+<article>
+{{ comp.header({ title: post.title, lang: lang, date: post.date, url: post.url, type }) }}
+</article>
+<hr>
+{{ /for }}

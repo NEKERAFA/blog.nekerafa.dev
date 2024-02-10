@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang='{{ lang }}' data-theme='light'>
+<head>
+<title>{{ title }} - blog.nekerafa.dev</title>
+<meta charset='utf-8'>
+<link rel='preconnect' href='https://fonts.googleapis.com'>
+<link rel='preconnect' href='https://fonts.gstatic.com' crossorigin>
+<link href='https://fonts.googleapis.com/css2?family=Comfortaa:wght@500;600;700&family=Noto+Color+Emoji&family=Nunito&display=swap' rel='stylesheet'>
+<link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css' integrity='sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==' crossorigin='anonymous' referrerpolicy='no-referrer'>
+<link rel='stylesheet' href='https://cdn.jsdelivr.net/npm/@picocss/pico@1/css/pico.min.css'>
+<link rel='stylesheet' href='/styles.css'>
+{{ if type == 'posts' }}
+<meta property="og:publish_time" content="{{ date |> toISOString() }}">
+{{ if 'modified_date' in it }}
+<meta property="og:modified_time" content="{{ modified_date }}">
+{{ /if }}
+{{ for tag of tags }}
+<meta property="og:tag" content="{{ tag }}">
+{{ /for }}
+{{ /if }}
+</head>
+<body>
+<header class="container-fluid">
+<img class='logo' src='/images/logo.webp' width='128px' height='128px' alt='nekerafa.dev'>
+<hgroup>
+<h1><a href='/'>hello world!</a></h1>
+<p>Blog personal de {{ author }}: programación, cacharreo y sobre todo, pasándomelo bien 😺.</p>
+</hgroup>
+<nav>
+<ul>
+<li><a href='/tutorials'>tutorials</a></li>
+<li><a href='/about'>about</a></li>
+</ul>
+</nav>
+</header>
+<nav>
+<ul>
+<li><a rel='me noopener' href='https://socials.nekerafa.dev' target='_blank'><i class='fa-solid fa-link'></i> Mis redes sociales</a></li>
+<li><a href='/feed.xml'><i class='fa-solid fa-square-rss'></i> Feed RSS</a></li>
+</ul>
+</nav>
+<main class='container'>
+{{ if type == 'posts' }}
+{{ comp.header({ title, lang, date, tags, type }) }}
+{{ /if }}
+{{ content }}
+</main>
+<footer class='container'>
+{{ if type !== 'legal' }}
+<p>The content on this web is licensed under <a href='https://creativecommons.org/licenses/by/4.0' target='_blank' rel='noopener'>Creative Commons Attribution 4.0 (CC BY 4.0) <i class='fa-brands fa-creative-commons'></i><i class='fa-brands fa-creative-commons-by'></i></a>.</p>
+<p>See more information on <a rel='license' href='/legal'>legal</a> page.</p>
+{{ /if }}
+<p class="centered">From Galicia 💙 made with <a href='https://lume.land' target='_blank' rel='noopener'>lume</a> 🔥 | Source code on <a href='https://github.com/NEKERAFA/nekerafa.dev' target='_blank' rel='noopener'><i class='fa-brands fa-github'></i> Github</a></p>
+</footer>
+</body>
+</html>

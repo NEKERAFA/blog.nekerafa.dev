@@ -1,0 +1,13 @@
+layout: layouts/main.vto
+title: 'blog.nekerafa.dev'
+author: 'Rafael Alcalde Azpiazu'
+description: 'Blog personal de NEKERAFA'
+lang: es
+type: page
+metas:
+  title: '=title'
+  published: '=date'
+  description: '=description'
+  lang: '=lang'
+  twitter: '@nekerafa'
+  generator: true
