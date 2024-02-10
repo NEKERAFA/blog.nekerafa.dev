@@ -18,7 +18,6 @@ const site = lume({
 site.ignore("README.md", ".github", ".vscode", ".gitignore")
 
     .copy("images")
-    .copy("favicon.ico")
     .copyRemainingFiles(
         (path: string) => path.startsWith("/posts/")
     )
