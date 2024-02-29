@@ -3,6 +3,7 @@ import codeHighlight from "lume/plugins/code_highlight.ts";
 import favicon from "lume/plugins/favicon.ts";
 import feed from "lume/plugins/feed.ts";
 import highlight_gdscript from "./languages/gdscript.ts";
+import katex from "lume/plugins/katex.ts";
 import jsx from "lume/plugins/jsx_preact.ts";
 import lume from "lume/mod.ts";
 import metas from "lume/plugins/metas.ts";
@@ -30,6 +31,7 @@ site.ignore("README.md", ".github", ".vscode", ".gitignore")
     .use(basePath())
     .use(resolveUrls())
     .use(sitemap())
+    .use(katex())
     
     .use(codeHighlight({
         languages: {
