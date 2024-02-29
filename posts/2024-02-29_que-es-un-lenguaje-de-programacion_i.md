@@ -4,6 +4,7 @@ date: '2024-02-29T21:07:58Z'
 tags:
   - post
   - castellano
+description: En esta entrada intentaré definirlo de la forma más sencilla posible la pregunta de qué es un lenguaje de programación para poder responder si HTML y CSS son lenguajes de programación o no. Primero explicaré un poco de historia y luego me adentraré al mundo de los lenguajes formales.
 ---
 
 Quería haber publicado esta entrada antes, pero se me está haciendo demasiado extensa, o al menos eso creo, por lo que he preferido dividirla en varias partes. Esto quiere decir que posiblemente en Marzo publique más entradas de lo habitual en función de lo que vaya escribiendo o extendiéndome, así que estad atentos.
