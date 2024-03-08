@@ -2,12 +2,12 @@
 
 [![Made with Lume](https://img.shields.io/badge/made%20with-Lume-orange)](https://lume.land/)
 [![Under GPLv3.0 license](https://img.shields.io/github/license/NEKERAFA/nekerafa.dev)](LICENSE)
-[![Deploy to GitHub Pages](https://github.com/NEKERAFA/nekerafa.dev/actions/workflows/firebase-hosting-merge.yml/badge.svg)](https://github.com/NEKERAFA/nekerafa.dev/actions/workflows/deploy-pages.yml)
+[![Publish on GitHub Pages](https://github.com/NEKERAFA/blog.nekerafa.dev/actions/workflows/build.yml/badge.svg)](https://github.com/NEKERAFA/blog.nekerafa.dev/actions/workflows/build.yml)
 
 ## Dependencias
 
 - [Deno 1.40.4](https://deno.com/)
-- [Lume 2.0.3](https://lume.land/)
+- [Lume 2.1.1](https://lume.land/)
 
 ## Compilacion
 
