@@ -4,8 +4,8 @@ export default function({ title, lang, date, tags, type, url }: {
     title: string
     lang: string
     date: Date
-    tags: string[]
     type: string
+    tags?: string[]
     url?: string
 }) {
     const isPost = type === 'posts'
@@ -20,7 +20,7 @@ export default function({ title, lang, date, tags, type, url }: {
         <>
             <Title>{title}</Title>
             <h2><span class='fa-solid fa-calendar-day'></span>{stringifyDate}</h2>
-            {isPost ? <p>{tags.map((tag) => <span class="badge">{tag}</span>)}</p> : null}
+            {tags && tags.length > 0 ? <p>{tags.map((tag) => <span class="badge">{tag}</span>)}</p> : null}
         </>
     )
 }

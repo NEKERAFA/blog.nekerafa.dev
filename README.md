@@ -6,8 +6,8 @@
 
 ## Dependencias
 
-- [Deno 1.40.4](https://deno.com/)
-- [Lume 2.1.1](https://lume.land/)
+- [Deno 1.41.3](https://deno.com/)
+- [Lume 2.1.2](https://lume.land/)
 
 ## Compilacion
 
