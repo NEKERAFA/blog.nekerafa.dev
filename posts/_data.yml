@@ -1,3 +1,4 @@
 type: posts
+main: true
 metas:
   type: article
