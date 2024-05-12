@@ -44,7 +44,7 @@
 </nav>
 <main class='container'>
 {{ if type == 'posts' }}
-{{ comp.header({ title, lang, date, tags, type }) }}
+{{ comp.header({ title: title, lang: lang, date: date, tags: tags, type: type }) }}
 {{ /if }}
 {{ content }}
 </main>

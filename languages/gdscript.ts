@@ -1,4 +1,4 @@
-import { HLJSApi, Language } from "lume/deps/highlight.ts";
+import { HLJSApi, Language } from "lume/deps/highlight.ts"
 
 export default function(hljs: HLJSApi): Language {
     return {

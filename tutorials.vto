@@ -5,7 +5,7 @@ title: Tutoriales publicados
 <hr>
 {{ for post of search.pages('tutorial main=true', "date=desc") }}
 <article>
-{{ comp.header({ title: post.title, lang: lang, date: post.date, url: post.url, type }) }}
+{{ comp.header({ title: post.title, lang: lang, date: post.date, url: post.url }) }}
 </article>
 <hr>
 {{ /for }}

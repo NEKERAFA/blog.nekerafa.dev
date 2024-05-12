@@ -11,6 +11,21 @@
     "jsx": "react-jsx",
     "jsxImportSource": "npm:preact"
   },
+  "lint": {
+    "exclude": [
+      "./_site"
+    ],
+    "rules": {
+      "tags": [
+        "recommended"
+      ]
+    }
+  },
+  "fmt": {
+    "exclude": [
+      "./_site"
+    ]
+  },
   "imports": {
     "lume/": "https://deno.land/x/lume@v2.1.4/"
   }
