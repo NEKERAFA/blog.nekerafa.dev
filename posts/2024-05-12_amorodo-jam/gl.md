@@ -1,10 +1,11 @@
 ---
 lang: gl
 main: false
+modified_date: 2024-05-12T18:22:16.944Z
 tags:
   - post
   - galego
-description: 'Hoxe comezou o Amorodo Jam 2024, unha jam libre, libre, aberta, reinvindicativa, inclusiva e para todas as idades, sen premios, nen xurado, nen votacións. A idea é crear un traballo que represente un pouco do noso lar que é Galicia, sexa unha canción, un poema, algún debuxo ou mesmo un videoxogo.'
+description: 'Hoxe comezou o Amorodo Jam 2024, unha jam libre, aberta, reinvindicativa, inclusiva e para todas as idades, sen premios, nen xurado, nen votacións. A idea é crear un traballo que represente un pouco do noso lar que é Galicia, sexa unha canción, un poema, algún debuxo ou mesmo un videoxogo.'
 ---
 
 Este tiña que ser o post de abril, pero coma sempre, tardei máis do habitual en poñerme. Tiña pensado falar de desenvolver apps nativas en Godot, pero ainda teño pendente acabar cunhas cousas, así que queda posposto. Logo ocurreuseme falar do Guadalindie (que pedazo evento) pero vai para largo e non quería enrolarme moito esta vez, pero, claro, tamén pasouseme falar do evento supremacista xenocida musical, e a ver, ao final tampouco querolle dar moito bombo ao que todes sabedes... Nada, raparigue, que ao final une tira para a casa e ocurreuseme facer unha breve entrada. Así tamén probo o sistema de subir entradas con traducción (tedes a versión en castelan sen o [gl](../) da url).
