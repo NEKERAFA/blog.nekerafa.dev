@@ -1,4 +1,4 @@
-export default function(title: string, tags?: string[]) {
+export default function(title: string, tags?: string) {
     const date = new Date()
     const slug = title.replace(/\s+/g, "-").toLowerCase()
 
@@ -7,7 +7,7 @@ export default function(title: string, tags?: string[]) {
         content: {
             title: title,
             date: date.toISOString(),
-            tags: tags || ['post'],
+            tags: tags?.split(", ") || ['post'],
             content: "Nuevo post"
         }
     }

@@ -1,7 +1,7 @@
 ---
 title: ¿Qué es un lenguaje de programación? I
-date: '2024-02-29T21:07:58Z'
-modified_date: '2024-03-01T13:37:30Z'
+date: 2024-02-29T21:07:58.000Z
+modified_date: 2024-03-01T13:37:30.000Z
 tags:
   - post
   - castellano

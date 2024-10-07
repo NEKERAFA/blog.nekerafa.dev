@@ -3,7 +3,7 @@ title: ¡Hola mundo!
 tags:
   - post
   - castellano
-date: 2022-04-02T13:21:18+0100
+date: 2022-04-02T12:21:18.000Z
 description: 'Como veis, me he creado una web personal. En este espacio pondré cosillas que me irán surgiendo a lo largo de la vida (bueno, creo que todos entendemos el concepto de blog a estas alturas).'
 ---
 

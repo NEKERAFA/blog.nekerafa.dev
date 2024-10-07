@@ -1,6 +1,6 @@
 ---
 title: Lo que necesitas saber antes de usar Godot
-date: 2024-01-30T22:52:22+0100
+date: 2024-01-30T21:52:22.000Z
 modified_date: 2024-02-10T12:53:20.000Z
 tags:
   - tutorial

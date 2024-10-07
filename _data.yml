@@ -3,10 +3,14 @@ title: 'blog.nekerafa.dev'
 author: 'Rafael Alcalde Azpiazu'
 description: 'Blog personal de NEKERAFA'
 lang: es
+header: 'Blog personal de Rafael Alcalde Azpiazu: programación, cacharreo y sobre todo, pasándomelo bien 😺.'
+tutorials: tutoriales
+about: sobre mí
+socials: Mis redes sociales
 type: page
 metas:
   title: '=title'
-  published: '=date'
+  #published: '=date'
   description: '=description'
   lang: '=lang'
   twitter: '@nekerafa'

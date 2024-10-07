@@ -1,4 +1,7 @@
 import { JSX } from "npm:preact/jsx-runtime";
+import { es } from "npm:date-fns/locale/es";
+import { format } from "npm:date-fns";
+import { gl } from "npm:date-fns/locale/gl";
 
 export default function({ title, lang, date, tags, type, url }: {
     title: string
@@ -10,7 +13,7 @@ export default function({ title, lang, date, tags, type, url }: {
 }) {
     const isPost = type === 'posts'
 
-    let stringifyDate = date.toLocaleDateString(lang, { weekday: isPost ? 'long' : 'short', year: 'numeric', month: isPost ? 'long' : 'short', day: 'numeric' });
+    let stringifyDate = format(date, isPost ? 'PPPP' : 'ccc, PP', { locale: lang === 'gl' ? gl : es }); //date.toLocaleDateString(lang, { weekday: isPost ? 'long' : 'short', year: 'numeric', month: isPost ? 'long' : 'short', day: 'numeric' });
     stringifyDate = `${stringifyDate[0].toUpperCase()}${stringifyDate.slice(1)}`
 
     const Title = ({ children }: { children?: string | JSX.Element | JSX.Element[] }) => 

@@ -1,7 +1,7 @@
 ---
 title: La importancia de la tecnología
-date: 2023-09-17T20:36:00+0200
-modified_date: 2023-12-09T11:42:15+0100
+date: 2023-09-17T18:36:00.000Z
+modified_date: 2023-12-09T10:42:15.000Z
 tags:
   - post
   - opinión

@@ -6,8 +6,8 @@
 
 ## Dependencias
 
-- [Deno 1.40.4](https://deno.com/)
-- [Lume 2.1.4](https://lume.land/)
+- [Deno 1.46.3](https://deno.com/)
+- [Lume 2.3.2](https://lume.land/)
 
 ## Compilacion
 
@@ -27,4 +27,10 @@ deno task lume --serve
 
 ```bash
 deno task lume
+```
+
+### Crear una nueva entrada
+
+```bash
+deno task lume new post 'Nombre' 
 ```

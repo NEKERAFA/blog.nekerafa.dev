@@ -1,7 +1,7 @@
 ---
 title: Mi aporte a la Indie Spain Jam 2023
-date: 2023-10-14T21:49:16+0200
-modified_date: 2023-12-09T10:35:51+0200
+date: 2023-10-14T19:49:16.000Z
+modified_date: 2023-12-09T08:35:51.000Z
 tags:
   - post-morten
   - castellano

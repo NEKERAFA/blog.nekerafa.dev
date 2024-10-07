@@ -1,4 +1,13 @@
-Este tenía que ser el post de abril, pero como siempre, he tardado más de la cuenta en ponerme. Iba a hablar de desarrollar apps nativas en Godot, pero aún tengo pendiente acabar unos flancos así que queda pospuesto. Luego se me ocurrió hablar del Guadalindie (que pedazo evento) pero iba a quedar largo y no me quería enrollar mucho esta vez, pero, claro, también se me vino lo del evento supremacista genocida musical, y a ver, al final tampoco le quiero dar mucho bombo a lo que todes sabemos... Nada, chique, que al final une tira para casa y se me ocurrió hacer una breve entrada. Así también pruebo el sistema de subir entradas con traducción (teneis la versión en gallego en [gl](./gl)).
+---
+title: Amorodo Jam 2024
+date: 2024-05-12T17:01:31.860Z
+tags:
+  - post
+  - castellano
+description: 'Hoy empezó el Amorodo Jam 2024, una jam libre, abierta, reivindicativa, inclusiva y para todas las edades, sin premios, ni jurado, ni votaciones. La idea es crear un trabajo que represente un poco de nuestra casa de como es Galicia, ya sea con una canción, un poema, algún dibujo o mismo un videojuego.'
+---
+
+Este tenía que ser el post de abril, pero como siempre, he tardado más de la cuenta en ponerme. Iba a hablar de desarrollar apps nativas en Godot, pero aún tengo pendiente acabar unos flancos así que queda pospuesto. Luego se me ocurrió hablar del Guadalindie (que pedazo evento) pero iba a quedar largo y no me quería enrollar mucho esta vez, pero, claro, también se me vino lo del evento supremacista genocida musical, y a ver, al final tampoco le quiero dar mucho bombo a lo que todes sabemos... Nada, chique, que al final une tira para casa y se me ocurrió hacer una breve entrada. Así también pruebo el sistema de subir entradas con traducción (teneis la versión en gallego en [gl](/gl/posts/2024-05-12_amorodo-jam.md)).
 
 Hoy empezó el [Amorodo Jam 2024](https://itch.io/jam/amorodo-jam), que si me sigues por redes sociales sabrás que lo llevo preparando desde hace unos meses. No es una Game Jam al uso, si no que una Jam a secas. Aquí se permite cualquier trabajo, aunque no tenga que ver sobre videojuegos. Un relato, un poema, unas acuarelas, lo que se te ocurra. Claro que hay un tema central y es que tiene que tratar sobre Galicia: puedes coger alguna comida típica, o hablar de algún lugar en el que estuviste, o mismo vale no hacer nada relacionado pero que esté en gallego. Todo vale. Esto es debido a que el objetivo del Amorodo Jam es hacer una jam para el día de las letras gallegas (17 de mayo). Es como un Sant Jordi, pero "a la gallega". También, para mayor dificultad, quien quiera puede hacer su trabajo con respecto a una temática y que se refleje dos elementos. La temática es <span style="color: #a83042">¡El resurgimiento es de ellas!</span>, y los elementos son <span style="color: #338833">Mochuelos</span> y <span style="color: #338833">¿Qué estás susurando?</span>
 

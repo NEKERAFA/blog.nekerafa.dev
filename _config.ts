@@ -3,8 +3,8 @@ import codeHighlight from "lume/plugins/code_highlight.ts";
 import favicon from "lume/plugins/favicon.ts";
 import feed from "lume/plugins/feed.ts";
 import highlight_gdscript from "./languages/gdscript.ts";
-import katex from "lume/plugins/katex.ts";
 import jsx from "lume/plugins/jsx_preact.ts";
+import katex from "lume/plugins/katex.ts";
 import lume from "lume/mod.ts";
 import metas from "lume/plugins/metas.ts";
 import minifyHTML from "lume/plugins/minify_html.ts";
@@ -17,7 +17,6 @@ const site = lume({
 });
 
 site.ignore("README.md", ".github", ".vscode", ".gitignore")
-
     .copy("images")
     .copy("CNAME")
     .copyRemainingFiles(
