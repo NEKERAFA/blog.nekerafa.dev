@@ -3,7 +3,7 @@ import codeHighlight from "lume/plugins/code_highlight.ts";
 import favicon from "lume/plugins/favicon.ts";
 import feed from "lume/plugins/feed.ts";
 import highlight_gdscript from "./languages/gdscript.ts";
-import jsx from "lume/plugins/jsx_preact.ts";
+import jsx from "lume/plugins/jsx.ts";
 import katex from "lume/plugins/katex.ts";
 import lume from "lume/mod.ts";
 import metas from "lume/plugins/metas.ts";
@@ -17,12 +17,13 @@ const site = lume({
 });
 
 site.ignore("README.md", ".github", ".vscode", ".gitignore")
-    .copy("images")
-    .copy("CNAME")
-    .copyRemainingFiles(
-        (path: string) => path.startsWith("/posts/")
-    )
+    .add("images")
+    .add("CNAME")
+    .add("/posts/")
 
+
+    .use(katex())
+    .add([".sass"])
     .use(sass())
     .use(metas())
     .use(jsx())
@@ -30,7 +31,6 @@ site.ignore("README.md", ".github", ".vscode", ".gitignore")
     .use(basePath())
     .use(resolveUrls())
     .use(sitemap())
-    .use(katex())
     
     .use(codeHighlight({
         languages: {
