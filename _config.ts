@@ -1,5 +1,6 @@
 import basePath from "lume/plugins/base_path.ts";
 import codeHighlight from "lume/plugins/code_highlight.ts";
+import extractDate from "lume/plugins/extract_date.ts";
 import favicon from "lume/plugins/favicon.ts";
 import feed from "lume/plugins/feed.ts";
 import highlight_gdscript from "./languages/gdscript.ts";
@@ -16,19 +17,19 @@ const site = lume({
     location: new URL("https://blog.nekerafa.dev")
 });
 
-site.ignore("README.md", ".github", ".vscode", ".gitignore")
+site.ignore("README.md")
     .add("images")
     .add("CNAME")
     .add("/posts/")
 
-
+    .use(extractDate())
     .use(katex())
     .add([".sass"])
     .use(sass())
+    .use(basePath())
     .use(metas())
     .use(jsx())
     .use(minifyHTML())
-    .use(basePath())
     .use(resolveUrls())
     .use(sitemap())
     
